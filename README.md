@@ -7,7 +7,7 @@
     `npm run dev` this will raise the react server and run electron
 - Compile:
     `npm run tbuild` this will compile the react application and then compile electron together with the react build and dependencies.
-
+- ___If you have any errors in the compilation, you must take into account that electron and electron-packager must be installed globally.___
 ---
 
 ## **Application view**

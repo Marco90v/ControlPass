@@ -1,0 +1,89 @@
+.container-fluid{
+  padding: 0;
+}
+
+.newUser, .loginUser{
+  max-width: 80%;
+  min-width: 500px;
+}
+.newUser>div:first-child, .loginUser>div:first-child{
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #6b6bc5;
+}
+
+.imglock{
+  max-width: 100%;
+}
+
+.textRegistro{
+  /* max-width: 75px; */
+  max-width: fit-content;
+
+}
+
+.detalle{
+  max-width: fit-content;
+}
+
+.detalle>small{
+  color: #3c3c3c!important;
+  text-decoration: underline;
+}
+
+.botonNewUser, .botonIniciar{
+  max-width: 20%;
+  color: black;
+}
+
+.alert{
+  padding: 0.5rem;
+  max-width: fit-content;
+}
+
+.acercade{
+  cursor: pointer;
+}
+
+.boldPass{
+  font-weight: bold;
+  /* color: #040494; */
+}
+
+.nomEli{
+  color: #d20000;
+}
+
+.configCambiar{
+  color: black;
+    max-width: fit-content;
+    min-width: 10%;
+}
+
+.configP{
+  font-weight: bold;
+}
+
+.contenImgLook{
+  background-color: white;
+}
+
+.search{
+  min-width: 300px;
+}
+.underline{
+  text-decoration: underline;
+}
+.text-justify{
+  text-align: justify;
+}
+.lodding{
+  width: 3rem; 
+  height: 3rem;
+  margin-top: calc(50vh - 48px);
+}
+
+.darkMode{
+  background-color: #212529!important;
+  color: white;
+}
